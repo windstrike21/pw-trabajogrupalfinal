@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Index from './Doctor/pages/Register';
+import Index from './General/pages/Index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
