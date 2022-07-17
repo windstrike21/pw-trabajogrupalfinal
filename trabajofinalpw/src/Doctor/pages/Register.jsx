@@ -1,3 +1,7 @@
+import DatosPersonales from '../components/Registro.DatosPersonales'
+import DatosUsuario from '../components/Registro.DatosUsuario'
+import ModoRegistro from '../components/Registro.ModoRegistro'
+
 const Register = () => {
     return <>
         <header></header>
