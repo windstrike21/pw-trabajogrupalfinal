@@ -1,4 +1,4 @@
-const ModalP = () => {
+const ModalC = () => {
     return <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
             <div className="modal-content">
@@ -38,4 +38,4 @@ const ModalP = () => {
         </div>
     </div>
 }
-export default ModalP;
+export default ModalC;
