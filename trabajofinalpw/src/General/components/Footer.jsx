@@ -1,3 +1,4 @@
+import React from 'react';
 const Footer = () => {
     return <div key="footer" className="card">
         <div className="card-header border-0">
