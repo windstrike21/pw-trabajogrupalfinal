@@ -1,3 +1,4 @@
+import React from 'react';
 const Card = () => {
     return <div className="row card">
         <h2 className="py-3 text-center card-header">Acerca de nosotros</h2>

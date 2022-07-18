@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Carrusel from "../components/Carrusel";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
- 
+import React from 'react';
 const Index = () => {
     return <>
         <Header />
