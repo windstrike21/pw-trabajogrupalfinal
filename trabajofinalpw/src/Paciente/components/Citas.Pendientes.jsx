@@ -1,5 +1,6 @@
 const Pendientes = () => {
     return <table className="table-responsive table-bordered border-dark bg-light mb-5">
+        <h5 class="card-title text-center mb-5">CITAS PENDIENTES</h5>
         <thead className="table-active bg-dark bg-opacity-50">
             <tr>
                 <th className="ps-1" scope="col">Médico</th>

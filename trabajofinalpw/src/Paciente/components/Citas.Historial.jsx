@@ -50,4 +50,4 @@ const Historial = () => {
         </tr>
     </table>
 }
-        export default Historial;
+export default Historial;
