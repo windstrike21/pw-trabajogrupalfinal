@@ -1,3 +1,4 @@
+import React from "react";
 const Horario = () => {
     return <table className="table-responsive table-bordered border-dark bg-light">
         <h5 className="card-title text-center mb-5">HORARIOS</h5>

@@ -1,3 +1,4 @@
+import React from "react";
 const Historial = () => {
     return <table className="table-responsive table-bordered border-dark bg-light mt-5">
         <h5 className="card-title text-center mt-5">CITAS ATENDIDAS</h5>

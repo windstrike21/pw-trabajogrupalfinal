@@ -1,3 +1,4 @@
+import React from "react";
 const ModalP = () => {
     return <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
