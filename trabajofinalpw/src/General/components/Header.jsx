@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return <div className="card">
         <div className="card-header border-0">
@@ -15,9 +17,9 @@ const Header = () => {
                 </div>
                 <div className="col-9 fs-sm d-flex justify-content-end">
                     <ul className="pagination">
-                        <li><a href="/pw-trabajogrupal/paciente/pacientelogin.html"><button type="button" className="border btn btn-light btn-sm">Ingresar</button></a></li>
+                        <li><Link to="/paciente-login"><button type="button" className="border btn btn-light btn-sm">Ingresar</button></Link></li>
                         <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                        <a href="/pw-trabajogrupal/paciente/pacienteregister.html"><button type="button" className="border btn btn-light btn-sm">Registrarse</button></a>
+                        <button type="button" className="border btn btn-light btn-sm">Registrarse</button>
                         <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
                         <li>
                             <div className="btn-group">
