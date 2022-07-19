@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Header = () => {
     return <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid"/>
             <a href="/pw-trabajogrupal/paciente/pacienteindex.html" className="navbar-brand">
@@ -34,4 +34,4 @@ const Navbar = () => {
             </div>
     </nav>
 }
-export default Navbar;
+export default Header;

@@ -4,7 +4,7 @@ import ModalP from "../components/Disponibilidad.ModalP";
 
 const Disponibilidad = () => {
     return <>
-    <header></header>
+    <Header />
     <div class="container-fluid mt-5 py-3">
         <DatosD />
     </div>
@@ -14,7 +14,7 @@ const Disponibilidad = () => {
         </div>
     </div>
     <ModalP />
-    <footer></footer>
+    <Footer />
 </>
 }
 export default Disponibilidad;

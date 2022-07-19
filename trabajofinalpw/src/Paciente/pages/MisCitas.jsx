@@ -5,7 +5,7 @@ import ModalC from "../components/Citas.ModalC";
 
 const MisCitas = () => {
     return <>
-        <header></header>
+        <Header />
         <div class="container-fluid mt-5 py-3">
             <Cuenta />
         </div>
@@ -16,7 +16,7 @@ const MisCitas = () => {
             </div>
         </div>
         <ModalC />
-        <footer></footer>
+        <Footer />
     </>
 }
 export default MisCitas;
